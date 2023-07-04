@@ -1,6 +1,6 @@
 # HPAScaleToZero
 
-Currently the out of the box horizontal pod autoscaler (HPA) does not scale to zero. 
+Currently the out of the box Kubernetes horizontal pod autoscaler (HPA) does not scale to zero. 
 
 This project is intended to emulate the [HPAScaleToZero](https://kubernetes.io/docs/reference/command-line-tools-reference/feature-gates/) Kubernetes feature gate which is currently still in alpha.
 The idea is this is deployed into a Kubernetes namespace along side a deployment that is scaled via a horizontal pod autoscaler.
