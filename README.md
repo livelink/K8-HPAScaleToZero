@@ -70,7 +70,7 @@ metadata:
   labels:
     app.kubernetes.io/component: hpa-scale-to-zero
   name: hpa-scale-to-zero
-  namespace: tech-18232-hpa
+  namespace: <THE NAMESPACE>
 spec:
   replicas: 1
   selector:
