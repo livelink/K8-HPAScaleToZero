@@ -20,7 +20,8 @@ setup(
     install_requires=['click==8.1.3',
                       'click-log==0.4.0',
                       'kubernetes==26.1.0',
-                      'tenacity==7.0.0'
+                      'tenacity==8.2.2',
+                      'numify==1.0.1'
                       ],
     classifiers=[
         "Development Status :: 3 - Alpha",
