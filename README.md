@@ -144,6 +144,3 @@ zero-scale -n <THE NAMESPACE> -h <THE HPA NAME> -m "prometheus.googleapis.com|re
 ```
 docker build -t hpa-scale-to-zero:1 .
 ```
-
-## Logic flow
-![](images/HPAScaleToZero.svg)
