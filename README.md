@@ -122,7 +122,7 @@ cd HPAScaleToZero
 pip install -e .
 ```
 
-The code checks if it is being run from outside or inside a k8 cluster and loads the appropriate config.
+The code checks if it is being run from outside or inside a k8 cluster and loads the appropriate k8 config.
 This makes running locally pretty easy.
 
 ```python
