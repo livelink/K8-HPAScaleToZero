@@ -111,7 +111,7 @@ spec:
 
 ## Running locally
 
-The code checks if it is being run from outside or insdide a k8 cluster and loads the appropriate config.
+The code checks if it is being run from outside or inside a k8 cluster and loads the appropriate config.
 This makes running locally pretty easy.
 
 ```python
