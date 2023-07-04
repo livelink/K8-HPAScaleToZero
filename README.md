@@ -1,0 +1,3 @@
+# HPAScaleToZero
+
+![](images/HPAScaleToZero.svg)
