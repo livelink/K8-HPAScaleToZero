@@ -1,4 +1,4 @@
-# HPAScaleToZero
+# K8-HPAScaleToZero
 
 Currently the out of the box Kubernetes horizontal pod autoscaler (HPA) does not scale to zero. 
 
@@ -118,7 +118,7 @@ spec:
 Install the package in `edit` mode.  This allows you to change the code without re-installing each time.
 
 ```bash
-cd HPAScaleToZero
+cd K8-HPAScaleToZero
 pip install -e .
 ```
 
