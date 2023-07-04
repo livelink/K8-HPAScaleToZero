@@ -112,7 +112,15 @@ spec:
             memory: 256Mi
 ```
 
-## Running locally
+## Local dev
+
+### Install
+Install the package in `edit` mode.  This allows you to change the code without re-installing each time.
+
+```bash
+cd HPAScaleToZero
+pip install -e .
+```
 
 The code checks if it is being run from outside or inside a k8 cluster and loads the appropriate config.
 This makes running locally pretty easy.
@@ -126,7 +134,7 @@ else:
 		config.load_kube_config()
 ```
 
-Here is an example command:
+### Running
 ```bash
 zero-scale -n <THE NAMESPACE> -h <THE HPA NAME> -m "prometheus.googleapis.com|resque_jobs_in_queue|gauge" -v debug -p 2 -d <DEPLOYMENT NAME>
 ```
