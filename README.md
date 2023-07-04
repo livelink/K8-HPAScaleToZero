@@ -10,7 +10,7 @@ The idea is this is deployed into a Kubernetes namespace along side a deployment
 
 ## Prerequisites
 
-Some cluster role and binding are required otherwise the pod does not permission to read metrics or adjust deployments.
+Some cluster role and binding are required otherwise there are no permissions to read metrics or adjust deployments.
 
 ### ClusterRoleBinding
 ```yaml
