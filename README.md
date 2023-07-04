@@ -5,6 +5,9 @@ Currently the out of the box Kubernetes horizontal pod autoscaler (HPA) does not
 This project is intended to emulate the [HPAScaleToZero](https://kubernetes.io/docs/reference/command-line-tools-reference/feature-gates/) Kubernetes feature gate which is currently still in alpha.
 The idea is this is deployed into a Kubernetes namespace along side a deployment that is scaled via a horizontal pod autoscaler.
 
+## Logic flow
+![](images/HPAScaleToZero.svg)
+
 ## Prerequisites
 
 Some cluster role and binding are required otherwise the pod does not permission to read metrics or adjust deployments.
