@@ -136,7 +136,7 @@ else:
 
 ### Running
 ```bash
-zero-scale -n <THE NAMESPACE> -h <THE HPA NAME> -m "prometheus.googleapis.com|resque_jobs_in_queue|gauge" -v debug -p 2 -d <DEPLOYMENT NAME>
+zero-scale --namespace <THE NAMESPACE> --hpa <THE HPA NAME> --metric-name "prometheus.googleapis.com|resque_jobs_in_queue|gauge" -v debug --period 2 --deployment <DEPLOYMENT NAME>
 ```
 
 
